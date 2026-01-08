@@ -116,3 +116,53 @@ nav ul li a {
   line-height: 40px;
   margin-bottom: 32px;
 }
+/* Header part end */
+
+.notes-section {
+  width: 71%;
+  margin: 130px auto;
+}
+.notes-section .text {
+  text-align: center;
+  margin-bottom: 44px;
+}
+.notes-section .text h1 {
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.notes-section .text p {
+  text-align: center;
+  color: #627382;
+  font-size: 16px;
+}
+
+.containerss {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.containerss .contains {
+  width: 280px;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.26);
+  border-radius: 8px;
+}
+.containerss .contains img {
+  background-color: #f95555;
+  padding: 14px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+.containerss .contains h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.containerss .contains p {
+  color: #627382;
+  line-height: 20px;
+}
