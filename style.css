@@ -24,6 +24,8 @@ body {
   transition: 2s;
 }
 
+/* Nav sec start */
+
 nav {
   max-width: 71%;
   margin: 24px auto;
@@ -44,4 +46,73 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: #000000;
+}
+
+/* nav sec end */
+/* baner sec start */
+
+.benar {
+  background-image: url(assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.container {
+  max-width: 71%;
+  margin: auto;
+  padding: 130px 0px;
+}
+.containt {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.container .Access {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 30px;
+  background: #fff;
+  width: 230px;
+  margin: auto;
+  margin-bottom: 16px;
+}
+.container .Access h4 {
+  font-weight: 500;
+  color: #30b868;
+  font-size: 16px;
+}
+
+.benar .button {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.benar .button .btn-benar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 50px;
+}
+
+.containt h1 {
+  line-height: 70px;
+  font-weight: 700;
+  font-size: 72px;
+}
+.containt h1 {
+  line-height: 70px;
+  font-weight: 700;
+  font-size: 65px;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.containt h1 span {
+  color: #30b868;
+}
+.containt > p {
+  line-height: 40px;
+  margin-bottom: 32px;
 }
