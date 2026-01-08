@@ -23,6 +23,11 @@ body {
   background-color: #000000;
   transition: 2s;
 }
+.early-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 
 /* Nav sec start */
 
@@ -165,4 +170,85 @@ nav ul li a {
 .containerss .contains p {
   color: #627382;
   line-height: 20px;
+}
+/* notes section end */
+/* Brain section start */
+
+.brain {
+  max-width: 71%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.brain {
+  max-width: 71%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+}
+.brain .img img {
+  width: 600px;
+}
+
+.brain .text {
+}
+.brain .text .uppercase {
+  text-transform: uppercase;
+  width: 500;
+  color: #469165;
+  margin-bottom: 16px;
+}
+.brain .text h1 {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.brain .text .Subtitle {
+  color: #627382;
+  margin-bottom: 40px;
+}
+.brain .text ul {
+  list-style: none;
+}
+.brain .text ul li {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+/* .brain sec end */
+
+/* Early to access start */
+
+.early-section {
+  width: 71%;
+  margin: 130px auto;
+  background: #f7f6f2;
+  padding: 80px 200px;
+  border-radius: 15px;
+  text-align: center;
+}
+.early-section h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.early-section > p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+  line-height: 24px;
+  color: #627382;
+}
+.early-section .button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
 }
