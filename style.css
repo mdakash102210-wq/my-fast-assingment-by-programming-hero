@@ -252,3 +252,39 @@ nav ul li a {
   justify-content: center;
   margin-bottom: 16px;
 }
+/* early-section stard */
+footer {
+  background-color: #001931;
+  color: white;
+}
+.footer-section {
+  max-width: 71%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0px;
+}
+.footer-section p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.footer-section .icon .icon i {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  color: #000000;
+  border-radius: 50%;
+  padding-top: 5px;
+}
+.copy-right-text {
+  max-width: 71%;
+  margin: auto;
+  text-align: center;
+}
+.copy-right-text p {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 30px 0px;
+}
